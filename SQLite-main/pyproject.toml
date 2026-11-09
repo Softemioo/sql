@@ -1,0 +1,16 @@
+[project]
+name = "sqlite-main"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "sqlalchemy>=2.0.57",
+]
+
+[project.scripts]
+sqlite-main = "sqlite_main:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
